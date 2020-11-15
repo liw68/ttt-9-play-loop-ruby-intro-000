@@ -36,7 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  while valid_move?(board, index)
+  turn = 0
+  while turn <10
     turn(board)
+    turn += 1
   end
 end
