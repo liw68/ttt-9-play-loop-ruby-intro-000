@@ -36,7 +36,7 @@ def turn(board)
 end
 
 def play(board)
-  until
+  while valid_move?(board, index)
     turn(board)
   end
 end
