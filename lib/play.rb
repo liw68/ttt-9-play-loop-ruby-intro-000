@@ -39,3 +39,4 @@ def play(board)
   until
     turn(board)
   end
+end
